@@ -6,8 +6,14 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-
+  def cobble=(cobble)
+    @cobble = cobble
+  end
+  def cobble
+    @cobble
+  end
  
 end
 
 Shoe.new("Adidas")
+Shoe.cobble
